@@ -1,0 +1,114 @@
+body {
+    font: 13px Arial, Helvetica;
+    color: #000000;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.textColorRed {
+    color: #FF0000;
+}
+
+.divPageTitle {
+    font: 16px Arial, Helvetica;
+    color: #4e6790;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.regResponse {
+    color: #0066cc;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.regForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.regSections {
+    margin-bottom: 10px;
+}
+
+.regInput {
+    height: 24px;
+    width: 288px;
+}
+
+.regDescription {
+    font-size: 12px;
+    color: #0066cc;
+    margin-bottom: 2px;
+}
+
+.regDescriptionRed {
+  font-size: 12px;
+  color: #dc0032;
+  margin-bottom: 2px;
+}
+
+.inputButton {
+    padding: 10px;
+    background-color: #0066cc;
+    border: 1px solid #20409a;
+    color: #ffffff;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+
+.inputButtonRed {
+    padding: 10px;
+    background-color: #dc0032;
+    border: 1px solid #b00028;
+    color: #ffffff;
+    font: 14px Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.chooseRegForm {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border: 1px solid #20409a;
+    color: #0066cc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.divError {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    border: 1px #c32c19;
+    background-color: #c32c19;
+    text-align: center;
+    color: #fff;
+}
+
+.divOk {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: green;
+    text-align: center;
+    color: #fff;
+}
+
+.regSelector {
+    width: 300px;
+    padding: 6px;
+}
+
